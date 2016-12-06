@@ -4,7 +4,7 @@ require(["gitbook"], function(gitbook) {
       var meta = document.createElement("meta");
 
       meta.name = "naver-site-verification";
-      meta.content = config.content;
+      meta.content = config.naverwebmastertool.content;
 
       document.getElementsByTagName("head")[0].appendChild(meta);
     });

@@ -1,6 +1,6 @@
 {
     "name": "gitbook-plugin-naverwebmastertool",
-    "version": "0.0.1",
+    "version": "0.0.4",
     "author": "shortstories",
     "description": "네이버 웹마스터 툴 소유 확인용",
     "main": "index.js",    
