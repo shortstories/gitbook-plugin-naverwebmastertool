@@ -1,7 +1,7 @@
 {
-    "name": "naver-webmaster-tool",
+    "name": "gitbook-plugin-naverwebmastertool",
     "version": "0.0.1",
-    "author": "ohchang",
+    "author": "shortstories",
     "description": "네이버 웹마스터 툴 소유 확인용",
     "main": "index.js",    
     "engines": {
