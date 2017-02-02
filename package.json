@@ -1,6 +1,6 @@
 {
     "name": "gitbook-plugin-verifications",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "author": "shortstories",
     "description": "각종 서비스 소유 확인용 메타태그 추가 플러그인",
     "main": "index.js",    

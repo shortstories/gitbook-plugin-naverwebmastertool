@@ -15,7 +15,7 @@ require(["gitbook"], function(gitbook) {
       if (googleMetaContent) {
         var meta = document.createElement("meta");
         meta.name = "google-site-verification";
-        meta.content = googleSearchConsoleContent;
+        meta.content = googleMetaContent;
         document.getElementsByTagName("head")[0].appendChild(meta);
       }      
     });
