@@ -1,11 +1,22 @@
 require(["gitbook"], function(gitbook) {
     // add meta tag
     gitbook.events.bind("start", function(e, config) {
-      var meta = document.createElement("meta");
+      var naverMetaContent = config.verifications.naverWebmasterContent;
 
-      meta.name = "naver-site-verification";
-      meta.content = config.naverwebmastertool.content;
+      if (naverMetaContent) {
+        var meta = document.createElement("meta");
+        meta.name = "naver-site-verification";
+        meta.content = naverMetaContent;
+        document.getElementsByTagName("head")[0].appendChild(meta);
+      }
 
-      document.getElementsByTagName("head")[0].appendChild(meta);
+      var googleMetaContent = config.verifications.googleSearchConsoleContent;
+
+      if (googleSearchConsoleContent) {
+        var meta = document.createElement("meta");
+        meta.name = "google-site-verification";
+        meta.content = googleSearchConsoleContent;
+        document.getElementsByTagName("head")[0].appendChild(meta);
+      }      
     });
 });

@@ -1,8 +1,8 @@
 {
-    "name": "gitbook-plugin-naverwebmastertool",
-    "version": "0.0.4",
+    "name": "gitbook-plugin-verifications",
+    "version": "0.0.5",
     "author": "shortstories",
-    "description": "네이버 웹마스터 툴 소유 확인용",
+    "description": "각종 서비스 소유 확인용 메타태그 추가 플러그인",
     "main": "index.js",    
     "engines": {
         "gitbook": "*"
@@ -10,14 +10,19 @@
     "homepage": "https://shortstories.gitbooks.io",    
     "repository": {
         "type": "git",
-        "url": "https://github.com/shortstories/gitbook-plugin-naverwebmastertool.git"
+        "url": "https://github.com/shortstories/gitbook-plugin-verifications"
     },    
     "gitbook": {
         "properties": {
-            "content": {
+            "naverWebmasterContent": {
                 "type": "string",
                 "title": "Naver webmaster tool meta tag content",
-                "required": true
+                "required": false
+            },
+            "googleSearchConsoleContent": {
+                "type": "string",
+                "title": "Google search console meta tag content",
+                "required": false
             }
         }
     }

@@ -1,13 +1,14 @@
-# gitbook-plugin-naverwebmastertool
+# gitbook-plugin-verifications
 
 ## book.json
 
 ``` json
 {
-    "plugins": ["naverwebmastertool"],
+    "plugins": ["verifications"],
     "pluginsConfig": {
-        "naverwebmastertool": {
-            "content": "your meta tag content"
+        "verifications": {
+            "naverWebmasterContent": "your naver webmaster tool meta tag content",
+            "googleSearchConsoleContent": "your google search console meta tag content",
         }
     }
 }
