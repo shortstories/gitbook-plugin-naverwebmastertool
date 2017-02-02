@@ -12,7 +12,7 @@ require(["gitbook"], function(gitbook) {
 
       var googleMetaContent = config.verifications.googleSearchConsoleContent;
 
-      if (googleSearchConsoleContent) {
+      if (googleMetaContent) {
         var meta = document.createElement("meta");
         meta.name = "google-site-verification";
         meta.content = googleSearchConsoleContent;
